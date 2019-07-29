@@ -16,3 +16,13 @@ h1{
 h1 strong{
     color: rgb(0, 0, 190);
 }
+.project-details{
+    width: 500px;
+}
+.project-image-container{
+    width:500px;
+}
+
+.hero{
+    height:300px;
+}
