@@ -38,6 +38,7 @@ h1 strong{
     margin-bottom: 15px;
     background-color: white;
     box-shadow: 0px 2px 8px #848484;
+    display: flex;
 }
 .project-details{
     width: 500px;
@@ -79,4 +80,16 @@ h1 strong{
 .portafolio h2{
     margin: 0;
     padding: 10px;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+    flex-shrink: 0;
 }
