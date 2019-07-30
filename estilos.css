@@ -23,7 +23,7 @@ h1{
     line-height: 1.5em;
     letter-spacing: -0.2px;
     color: white;
-    margin: 0 520px 0 0;
+    margin: 0 ;
     
 }
 h1 strong{
@@ -50,6 +50,8 @@ h1 strong{
     margin: 0;
 }
 .hero{
+    display: flex;
+    align-items: center;
     height:300px;
     background-image: url(./pexels-photo-1549702.jpeg);
     background-size: 500px 300px;
@@ -63,38 +65,56 @@ h1 strong{
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 50px;
 }
-.header a{
-    color: white;
-    text-decoration: none;
+.menu{
+    height: inherit;
 }
+
 .header ul{
     list-style: none;
     margin: 0;
-}
-.menu li{
-    display: inline-flex;
-    margin: 10px;
+    padding: 0;
+    display: flex;
+    height: inherit;
 
+}
+.header ul li{
+    height: inherit;
+}
+
+.header img{
+    height: 50px;
+}
+.header a{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    height: inherit;
+    color: white;
+    text-decoration: none;
+  
 }
 .portafolio h2{
     margin: 0;
     padding: 10px;
 }
 
-.flexbox{
+.footer{
+    background-color: var(--backgroun-gris-color);
+    color: white;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 300px;
+    justify-content: space-between;
     align-items: center;
+
 }
-.box{
-    height: 50px;
-    width: 50px;
-    border: 1px solid red;
-    flex-shrink: 0;
+.footer img{
+    height: 30px;
+    vertical-align: middle;
 }
-.box:nth-of-type(1){
-    align-self: flex-start;
+
+.footer a{
+    color: white;
 }
+
