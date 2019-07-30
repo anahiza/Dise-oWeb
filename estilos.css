@@ -53,3 +53,7 @@ h1 strong{
 .header ul{
     list-style: none;
 }
+.project{
+    box-shadow: 0px 2px 8px #848484;
+    
+}
