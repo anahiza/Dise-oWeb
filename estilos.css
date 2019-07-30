@@ -34,7 +34,7 @@ h1 strong{
     padding: 20px;
 }
 
-.portafolio h2{
+h2{
     color: var(--celeste);
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
@@ -75,7 +75,11 @@ h1 strong{
     font-size: 20px;
 }
 .project-image-container{
-    width:500px;
+    width:50%;
+}
+
+.project-image-container img{
+    width: 100%;
 }
 .logo{
     margin: 0;
@@ -146,3 +150,54 @@ h1 strong{
     color: white;
 }
 
+.event-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.event{
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #f4fbff;
+
+
+}
+.event-list-title{
+    margin-left: 20px;
+}
+.event figure{
+    margin: 0;
+    padding: 0;
+}
+
+.event img{
+   margin: 0;
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.event-description{
+    text-align: left;
+}
+
+.event-url{
+    border: 1px solid var(--celeste);
+    padding: 5px 20px;
+    text-decoration: none;
+    color: var(--celeste);
+    border-radius: 5px;
+}
