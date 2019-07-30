@@ -85,11 +85,16 @@ h1 strong{
 .flexbox{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
 }
 .box{
     height: 50px;
     width: 50px;
     border: 1px solid red;
     flex-shrink: 0;
+}
+.box:nth-of-type(1){
+    align-self: flex-start;
 }
