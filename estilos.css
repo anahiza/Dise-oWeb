@@ -3,6 +3,7 @@
     --gris-claro-color: #626262;
     --backgroun-gris-color: #1b2127;
     --celeste: #026FFF;
+    --gris-portafolio:#FAFAFA;
 
 }
 
@@ -22,14 +23,21 @@ h1{
     line-height: 1.5em;
     letter-spacing: -0.2px;
     color: white;
+    margin: 0 520px 0 0;
     
 }
 h1 strong{
     color: var(--celeste);
 }
+.portafolio{
+    background-color: var(--gris-portafolio);
+}
 .project{
+    padding: 20px;
+    margin: 10px;
     margin-bottom: 15px;
-    
+    background-color: white;
+    box-shadow: 0px 2px 8px #848484;
 }
 .project-details{
     width: 500px;
@@ -52,6 +60,8 @@ h1 strong{
 .header{
     background-color: var(--backgroun-gris-color);
     color: white;
+    display: flex;
+    justify-content: space-between;
 }
 .header a{
     color: white;
@@ -63,8 +73,10 @@ h1 strong{
 }
 .menu li{
     display: inline-flex;
+    margin: 10px;
+
 }
-.project{
-    box-shadow: 0px 2px 8px #848484;
-    
+.portafolio h2{
+    margin: 0;
+    padding: 10px;
 }
