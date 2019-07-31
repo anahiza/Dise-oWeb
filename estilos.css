@@ -139,6 +139,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 5px;
 
 }
 .footer img{
@@ -201,3 +202,45 @@ h2{
     color: var(--celeste);
     border-radius: 5px;
 }
+
+.contact{
+    background-color: #026FFF;
+    color:white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.social-link{
+    display: inline-block;
+    width:50px;
+    height: 50px;   
+    font-size: 40px;
+    color: white;
+    margin: 0 10px;
+}
+
+.form-email input{
+    border-color: gray;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-style: solid;
+    margin-left: 5px;
+}
+
+.form-email button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px 0;
+    
+}
+
+.form-email h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
