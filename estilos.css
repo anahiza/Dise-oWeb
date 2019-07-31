@@ -232,6 +232,7 @@ h2{
 .form-email button{
     display: block;
     margin-top: 10px;
+    margin-left: 20px;
     background: transparent;
     color: white;
     border-radius: 5px;
